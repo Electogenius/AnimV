@@ -1,6 +1,6 @@
 console.log("%cAnimV", "background-color: black; color: white; padding: 10px", "running");
 var usemes = {
-	timequotient: 1
+	timequotient: 1 //eh
 }
 var p = {
 	fadein: {
