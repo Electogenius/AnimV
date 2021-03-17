@@ -33,7 +33,8 @@ function add(type, text, id, aJSObj, obj, addId) {
 				aJSObj.targets = x
 				anime(aJSObj)
 		//},500)
-	}
+    }
+    return x
 }
 function times(times, fun) {
 	for (var i = 0; i < times; i++) {
