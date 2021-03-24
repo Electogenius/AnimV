@@ -1,3 +1,4 @@
+import "https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
 console.log("%cAnimV", "background-color: black; color: white; padding: 10px", "running");
 var usemes = {
 	timequotient: 1 //eh
@@ -34,7 +35,9 @@ function add(type, text, id, aJSObj, obj, addId) {
 				anime(aJSObj)
 		//},500)
 	}
+	return x
 }
+
 function times(times, fun) {
 	for (var i = 0; i < times; i++) {
 		fun(i);
