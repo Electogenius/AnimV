@@ -1,3 +1,6 @@
+//<<<<<<< ours
+//import "https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+//=======
 //import "https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
 console.log("%cAnimV", "background-color: black; color: white; padding: 10px", "running");
 var usemes = {
