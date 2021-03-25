@@ -37,13 +37,13 @@ function add(type, text, id, aJSObj, obj, addId) {
 				aJSObj.targets = x
 				anime(aJSObj)
 		//},500)
-<<<<<<< ours
+//<<<<<<< ours
 	}
 	return x
-=======
+//=======
     }
     return x
->>>>>>> theirs
+//>>>>>>> theirs
 }
 
 function times(times, fun) {
