@@ -45,7 +45,7 @@ function add(type, text, id, aJSObj, obj, addId) {
 	}
 	return x
 //=======
-    //}
+    }
     //return x
 //>>>>>>> theirs
 
