@@ -16,7 +16,11 @@ var p = {
 }
 function add(type, text, id, aJSObj, obj, addId) {
 	var x = document.createElement(type)
-	x.innerHTML = text
+	if(type != "img"){
+		x.innerHTML = text
+	}else{
+		x.src = text
+	}
 	x.id = id
 	if (obj !== undefined) {
 		for (var prop in obj) {
