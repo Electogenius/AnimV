@@ -42,9 +42,9 @@ function add(type, text, id, aJSObj, obj, addId) {
 	return x
 //=======
     }
-    return x
+    //return x
 //>>>>>>> theirs
-}
+
 
 function times(times, fun) {
 	for (var i = 0; i < times; i++) {
