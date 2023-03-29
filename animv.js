@@ -1,8 +1,4 @@
-//<<<<<<< ours
-//import "https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
-//=======
-//import "https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
-console.log("%cAnimV", "background-color: black; color: white; padding: 10px", "running");
+console.log("%cAnimV", "background-color: black; color: white; padding: 10px");
 var usemes = {
 	timequotient: 1 //eh
 }
@@ -34,20 +30,11 @@ function add(type, text, id, aJSObj, obj, addId) {
 	}
 	if (aJSObj !== undefined) {
 		aJSObj.target = "-%-+'" +id+ "'+-%-"
-		//setTimeout(function(){
-				//var xa = JSON.stringify(aJSObj).replace("\"-%-\+'", "document.getElementById('").replace("+-%-\"", ")")
-				//eval("anime(" + xa + ")")
-				//console.log(document.getElementById("test"));
 				aJSObj.targets = x
 				anime(aJSObj)
-		//},500)
-//<<<<<<< ours
 	}
 	return x
-//=======
     }
-    //return x
-//>>>>>>> theirs
 
 
 function times(times, fun) {
